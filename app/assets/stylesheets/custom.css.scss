@@ -1,5 +1,4 @@
 $navbar-default-bg: #3368C4;
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -12,23 +11,38 @@ $navbar-default-bg: #3368C4;
     font-weight: bold;
 }
 .center {
-    
     text-align: center;
-    
 }
 
 .jumbotron {
     background-image: asset-url('background.jpg');
     background-size: cover;
     color: #fff;
-    
-    
 }
 
 .btn-xlarge {
     background-color: #3368C4;
-    
-    
+}
+
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0;
+}
+
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body{
+    border-top: 1pm solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 
 footer {
@@ -45,7 +59,6 @@ footer a:hover {
 }
 
 footer ul {
-    
     float: center;
     list-style: none;
 }
@@ -53,5 +66,4 @@ footer ul {
 footer ul li {
     float: center;
     margin-right: 30px;
-    
 }
