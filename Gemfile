@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+#Adding bootstrap to my Rails project
+gem 'bootstrap-sass', '~> 3.4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
