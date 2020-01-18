@@ -30,6 +30,9 @@
   </form>
   <ul class="nav navbar-nav navbar-right">
     <li><%= link_to 'About', about_path, id: "logo"  %></li>
+    <% if session[:user_id] !=nil %>
+      <li><%= link_to 'Log out', logout_path, method: :delete, id: "logo"  %></li>
+    <% end %>
     <li><a class="nav-item nav-link" id="logo" href="http://linkedin.com/in/andrew-colon">LinkedIn</a></li>
   </ul>
  </div><!-- /.navbar-collapse -->
